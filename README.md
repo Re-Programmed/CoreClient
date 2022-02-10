@@ -1,0 +1,2 @@
+# CoreClient
+A Minecraft Client.
