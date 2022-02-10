@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "coreclient",
+  "version": "${version}",
+
+  "name": "Core Client",
+  "description": "Adds tons of features to Minecraft.",
+  "authors": [
+    "Re_Programmed"
+  ],
+  "contact": {
+    "homepage": "https://re-programmed.itch.io/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/coreclient/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.coreclient.Main"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
