@@ -1,9 +1,5 @@
 package net.coreclient.mods.keystrokes;
 
-
-import java.awt.Label;
-
-import org.checkerframework.checker.units.qual.A;
 import org.lwjgl.glfw.GLFW;
 
 import io.github.cottonmc.cotton.gui.client.CottonHud;
