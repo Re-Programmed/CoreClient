@@ -5,7 +5,7 @@ import net.minecraft.entity.Entity;
 
 public abstract class Mod {
 
-    boolean active = false;
+    protected boolean active = false;
     
     WToggleButton toggleButton = null;
     

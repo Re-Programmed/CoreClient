@@ -7,6 +7,7 @@ import net.coreclient.gui.ModDisplayGUI;
 import net.coreclient.mods.BloodParticles;
 import net.coreclient.mods.Mod;
 import net.coreclient.mods.TestMod;
+import net.coreclient.mods.cps.CpsMod;
 import net.coreclient.mods.keystrokes.Keystrokes;
 import net.coreclient.waypoints.waypoint;
 import net.fabricmc.api.ModInitializer;
@@ -17,7 +18,7 @@ import net.minecraft.util.ActionResult;
 
 public class Main implements ModInitializer {
 
-    public static Mod[] mods = {new TestMod(), new BloodParticles(), new Keystrokes()};
+    public static Mod[] mods = {new TestMod(), new BloodParticles(), new Keystrokes(), new CpsMod()};
 
     @Override
     public void onInitialize() {

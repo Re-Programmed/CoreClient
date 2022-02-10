@@ -91,6 +91,31 @@ public class ModDisplayGUI extends LightweightGuiDescription {
 
         });
 
+        RegisterModOption("CPS", Main.mods[3], new Runnable() {
+
+            @Override
+            public void run() {
+                WGridPanel p = new WGridPanel();
+
+                setRootPanel(p);
+
+                p.setSize(200, 100);
+
+                WLabel label = new WLabel("CPS");
+
+                label.setColor(Color.WHITE.toRgb());
+
+                p.add(label, 1, 1);
+
+                WLabel labeldesc = new WLabel("Shows what your CPS is in game on the HUD.");
+
+                labeldesc.setColor(Color.WHITE.toRgb());
+
+                p.add(labeldesc, 1, 2);
+            }
+
+        });
+
 /*
         WButton buttonMarker = new WButton();
         buttonMarker.setLabel(Text.of("Add Waypoint"));
